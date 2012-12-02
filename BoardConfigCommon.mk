@@ -84,3 +84,12 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/asus/grouper
 
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
 TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+
+#TWRP config
+#TWRP config:
+DEVICE_RESOLUTION := 800x1280
+TW_NO_USB_STORAGE := true
+BOARD_HAS_NO_REAL_SDCARD := true
+RECOVERY_SDCARD_ON_DATA := true
+TW_ALWAYS_RMRF := true
+TW_NO_USB_STORAGE := true

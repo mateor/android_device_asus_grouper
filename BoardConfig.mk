@@ -31,15 +31,10 @@
 USE_CAMERA_STUB := true
 USE_PROPRIETARY_AUDIO_EXTENSIONS := false
 
-<<<<<<< HEAD
 BOARD_LIB_DUMPSTATE := libdumpstate.grouper
-
-TARGET_RECOVERY_UI_LIB := librecovery_ui_grouper
 
 -include vendor/asus/grouper/BoardConfigVendor.mk
 include device/asus/grouper/BoardConfigCommon.mk
-=======
--include vendor/asus/grouper/BoardConfigVendor.mk
 
 # inherit from the proprietary version
 # needed for BP-flashing updater extensions
@@ -108,4 +103,4 @@ BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_ALWAYS_RMRF := true
 TW_NO_USB_STORAGE := true
->>>>>>> 24c94936e06e80fa03252d2ac94052774e9ede59
+
